@@ -1,0 +1,98 @@
+:root {
+    --color-fondo: #f0f0f0;
+    --color-encabezado: #333;
+    --color-texto: #fff;
+    --color-label: #999;
+    --color-borde: #9d77e4;
+    --color-boton: #7b68ee;
+    --color-boton-hover: #483d8b;
+    --color-fondo-formulario: #1b1b1dc2;
+}
+
+body {
+    background-image: url('../img/wallpapers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-encabezado); 
+    color: var(--color-texto);
+    text-align: center;
+    padding: 10px; 
+    z-index: 1000; 
+  }
+
+
+h1 {
+    font-size: 20px;
+}
+
+form {   
+    max-width: 300px;
+    margin: 85px auto;
+    background-color: var(--color-fondo-formulario);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: medium;
+    color: var(--color-label)
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+}
+
+
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: var(--color-boton);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-boton-hover);
+}
+
+#valor-seguro {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--color-label);
+    font-size: small;
+    text-align: center;
+}
+

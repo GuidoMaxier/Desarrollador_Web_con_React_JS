@@ -1,0 +1,40 @@
+.calculator-card {
+    /* background-color: #1a1717a6; */
+    background: linear-gradient(#0395e9, #c6cbd8, #c6cbd8, #0395e9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .input-section {
+    margin: 10px 0;
+ 
+  }
+
+  .input-section input {
+    margin: 10px 0;
+ 
+  }
+  
+  .button-section {
+    margin: 20px 0;
+  }
+  
+  button {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(24, 26, 24);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #43518d;
+  }
+  
